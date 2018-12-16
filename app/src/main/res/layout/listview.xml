@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/touxiang"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/second"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/textView3"
+            android:gravity="center"
+            android:layout_alignBottom="@+id/touxiang"
+            android:layout_toRightOf="@+id/touxiang"
+            android:layout_toEndOf="@+id/touxiang" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/editText"
+            android:textSize="40dp"
+            android:layout_below="@+id/touxiang"
+            android:layout_alignLeft="@+id/touxiang"
+            android:layout_alignStart="@+id/touxiang"
+            android:layout_marginTop="19dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:layout_below="@+id/editText"
+            android:layout_toRightOf="@+id/editText"
+            android:layout_toEndOf="@+id/editText" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/dianzan"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

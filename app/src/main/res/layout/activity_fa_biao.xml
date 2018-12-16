@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hc.finshhomework.FaBiaoActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:background="@null"
+        android:onClick="fabiao_back"
+        android:id="@+id/quxiao"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发表"
+        android:onClick="faBiao"
+        android:background="@null"
+        android:id="@+id/fabiaoshuoshuo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/shuoshuo"
+        android:layout_below="@+id/quxiao"
+        android:layout_marginTop="10dp"
+        android:hint="输入自己的说说"
+        android:gravity="start"
+        android:background="@android:drawable/edit_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发表说说"
+        android:textSize="35dp"
+        android:id="@+id/textView4"
+        android:layout_alignBottom="@+id/fabiaoshuoshuo"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/second"
+        android:layout_below="@+id/shuoshuo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

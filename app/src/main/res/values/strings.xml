@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">finshhomework</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fa_biao">FaBiaoActivity</string>
+    <string name="title_activity_pengyouquan">PengyouquanActivity</string>
+    <string name="title_activity_denglu">DengluActivity</string>
+</resources>

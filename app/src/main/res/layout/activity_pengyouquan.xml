@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hc.finshhomework.PengyouquanActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dabeijing"
+        android:src="@drawable/dabeijing"
+        android:layout_alignBottom="@+id/touxianga"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回登陆"
+        android:onClick="fanhuidenglu"
+        android:textSize="28dp"
+        android:background="@null"
+        android:id="@+id/fanhuib_button"
+        android:layout_below="@+id/dabeijing"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/send"
+        android:background="@drawable/tubiao"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:onClick="daofabiao"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_marginTop="180dp"
+        android:layout_below="@+id/send"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/touxianga"
+        android:src="@drawable/second"
+        android:layout_marginTop="103dp"
+        android:layout_below="@+id/send"
+        android:layout_alignRight="@+id/dabeijing"
+        android:layout_alignEnd="@+id/dabeijing" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="发表说说点这-->"
+        android:id="@+id/textView6"
+        android:layout_alignBottom="@+id/fanhuib_button"
+        android:layout_toLeftOf="@+id/send"
+        android:layout_toStartOf="@+id/send" />
+
+
+</RelativeLayout>
